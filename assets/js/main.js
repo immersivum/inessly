@@ -279,7 +279,7 @@
       const data = new FormData(form);
       const safe = (key) => (data.get(key) || "").toString().trim();
       const lines = [
-        "Nowe zapytanie ze strony invessly.io",
+        "Nowe zapytanie ze strony Invessly",
         "",
         `Imię i nazwisko: ${safe("name")}`,
         `E-mail: ${safe("email")}`,
@@ -294,7 +294,7 @@
 
       const subject = encodeURIComponent(`Zapytanie ofertowe - ${safe("scope") || "strona internetowa"}`);
       const body = encodeURIComponent(lines.join("\n"));
-      window.location.href = `mailto:mateusz@invessly.io?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:hello@mateuszlukaszczyk.com?subject=${subject}&body=${body}`;
     });
   };
 

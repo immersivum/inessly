@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://invessly.io/sitemap.xml
+Sitemap: https://inessly.vercel.app/sitemap.xml
